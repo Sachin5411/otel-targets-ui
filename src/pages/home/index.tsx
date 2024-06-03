@@ -1,11 +1,15 @@
-import React from "react";
+import { Box } from "@mui/system";
+import Layout from "../../Layout";
+
 
 const Home = () => {
-    return (
-        <div>
-            Home
-        </div>
-    );
-}
+  return (
+    <Layout>
+      <Box sx={{
+            color: "black",
+      }}>Welcome to Home Page</Box>
+    </Layout>
+  );
+};
 
 export default Home;
